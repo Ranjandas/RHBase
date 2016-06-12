@@ -13,11 +13,11 @@ docker build -t rhbase .
 Alternatively if you dont want to build you can pull the pre-built docker image
 
 ```
-docker pull ranjandas/RHBase
+docker pull ranjandas/rhbase
 ```
 
 To run the image use docker run which will drop you to the R console.
 
 ```
-docker run -it ranjandas/RHBase
+docker run -it ranjandas/rhbase
 ```
