@@ -2,7 +2,7 @@ FROM centos:7
 
 MAINTAINER Ranjandas A P <thejranjan@gmail.com>
 
-RUN yum install -y epel-release && yum install thrift-devel R && yum clean all
+RUN yum install -y epel-release && yum install -y thrift-devel R && yum clean all
 
 ENV RHBASE_VER 1.2.1
 
