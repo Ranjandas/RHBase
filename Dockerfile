@@ -18,7 +18,7 @@ RUN yum -y install automake \
 					&& yum -y install R \
 					&& yum clean all
 
-ENV THRIFT_VER 0.9.3
+ENV THRIFT_VER 0.8.0
 ENV RHBASE_VER 1.2.1
 
 RUN curl -LO http://archive.apache.org/dist/thrift/$THRIFT_VER/thrift-$THRIFT_VER.tar.gz && \
